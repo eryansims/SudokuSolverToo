@@ -26,13 +26,13 @@ public class Solver {
     
     public static void main(String[] args) {
         Solver sudoku = new Solver(UNSOLVED_GRID);
-	System.out.println("Sudoku Grid You Needed Solved");
+	System.out.println("Sudoku Grid You Needed Solved:");
 	System.out.println();
 	sudoku.results();
 		
 	
 	if (Solver.solve()) {
-		System.out.println("Your Solved Sudoku Grid");
+		System.out.println("Your Solved Sudoku Grid:");
 		System.out.println();
 		Solver.results();
 	} 
